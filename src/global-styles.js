@@ -5,7 +5,8 @@ export const MainWrapper = styled.div`
    margin: 0 auto;
    padding: 33px;
    display: flex;
+   background-color: #EAEAEA;
    @media (max-width: 1440px) {
     width: 100%;
   }
-`; 
+`;
