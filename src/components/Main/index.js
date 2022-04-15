@@ -1,14 +1,13 @@
 import React from 'react'
-import {} from './styles'
-import { BrowserRouter } from "react-router-dom"
 import Sidebar from '../Sidebar'
-import Worker from '../Worker'
+import { Outlet } from 'react-router-dom'
+import { MainWrapper } from './../../global-styles'
 
 export default function Main() {
   return (
-    <BrowserRouter>
+    <MainWrapper>
       <Sidebar/>
-      <Worker/>
-    </BrowserRouter>
+      <Outlet/>
+    </MainWrapper>
   )
 }

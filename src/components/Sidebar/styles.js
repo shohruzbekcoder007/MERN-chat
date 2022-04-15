@@ -2,11 +2,10 @@ import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 
 export const SidebarWrapper = styled.div`
-    margin-right: 48px;
     width: 186px;
     border-radius: 20px;
     background-color: #1A66FF;
-    height: 954px;
+    // height: 954px;
     padding-top: 37px;
 `;
 
