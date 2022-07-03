@@ -1,2 +1,0 @@
-1. active linkni tugirlash sidebarni uzidan tugirlab quyilishi kerak
-2. login va regni qushish routerlani unga moslash
